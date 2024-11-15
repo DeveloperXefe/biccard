@@ -1,0 +1,87 @@
+body{
+    background-color:#f3efe8;
+    font-family: sans-serif;
+    margin: 0;
+}
+.bar{
+    background-color:#336659 ;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+.bar a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s
+}
+.bar a:hover{
+    transition: 0.2s ease-in;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+.section{
+    padding:20px;
+    border-radius: 10px;
+    background-color:#d9c9ba;
+    margin: 10px;
+    top:50%;
+    text-align: center;
+}
+.section input{
+    border-radius: 10px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0 0 10px;
+}
+.section textarea{
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+}
+.btn{
+    width: 60px;
+    height: 30px;
+    background-color: #336659;
+    color: white;
+    box-shadow: 0 0 10px black;
+    transition: 1s;
+}
+.btn:hover{
+    transition: 1s;
+    width: 180px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.br {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* footer'ı en alta itmek için */
+    text-align: center;
+    padding: 20px;
+    background-color: #336659;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    position: relative;
+}
+.social-icons a{
+    background-color: #336659;
+    padding: 10px;
+    border-radius: 4rem;
+    box-shadow:0 0 20px black;
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+}
+.social-icons a:hover{
+    border-radius: 10px;
+    transition: 0.2s;
+}
